@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   intl: '^0.17.0'
-  intl_generator: '0.2.1'
+  intl_generator: '0.3.0'
   xml: '^5.3.1'
   args: '^2.3.0'
   shell:

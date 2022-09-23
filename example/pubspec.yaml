@@ -14,7 +14,7 @@ dependencies:
   cupertino_icons: ^1.0.3
 
   intl: '>=0.15.7'
-  intl_generator: 0.2.1
+  intl_generator: 0.3.0
 
 
 dev_dependencies:
