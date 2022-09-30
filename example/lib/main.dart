@@ -62,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.bodyText1,
             ),
-            RaisedButton(
+            TextButton(
               onPressed: (){
                 //change locale
                 Locale nextLocale;
