@@ -96,6 +96,7 @@ main(List<String> args) async {
       print('$outDir/$fileName');
     }
     var cmdResult = await shell.startAndReadAsString(cmd);
+    print(args.join(" "));
     print('build done $cmdResult,please check the outDir:$outDir');
   }
 }
