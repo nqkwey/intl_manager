@@ -12,14 +12,16 @@ dependencies:
     sdk: flutter
   intl: '^0.17.0'
   intl_translation:
-    path:
-      ./intl_translation
+    git:
+      url: https://github.com/nqkwey/intl_translation
+      ref: master
 
   xml: '^5.3.1'
   args: '^2.3.0'
   shell:
-    path:
-      ./shell
+    git:
+      url: https://github.com/nqkwey/shell
+      ref: master
   string_unescape: '>=1.5.1'
   path: '1.8.2'
 
