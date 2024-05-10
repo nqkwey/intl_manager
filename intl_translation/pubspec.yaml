@@ -7,13 +7,13 @@ description: >-
 repository: https://github.com/dart-lang/intl_translation
 
 environment:
-  sdk: '>=2.6.0 <3.0.0'
+  sdk: '>=2.12.0 <=3.3.3'
 
 dependencies:
   analyzer: ^4.0.0
   args: ^2.0.0
   dart_style: ^2.0.0
-  intl: ^0.17.0
+  intl: ^0.18.1
   path: ^1.0.0
 
 dev_dependencies:

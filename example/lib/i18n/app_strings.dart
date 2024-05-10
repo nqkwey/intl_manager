@@ -35,7 +35,7 @@ class AppStrings extends AppStringsDefine{
   }
 
   static AppStrings of(BuildContext context) {
-    return Localizations.of<AppStrings>(context, AppStrings);
+    return Localizations.of<AppStrings>(context, AppStrings)!;
   }
 
   //wrap AppStringsDefine method

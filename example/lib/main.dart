@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatefulWidget {
   Locale locale;
-  MyHomePage(this.locale,{Key key}) : super(key: key);
+  MyHomePage(this.locale,{Key? key}) : super(key: key);
 
   @override
   _MyHomePageState createState() => _MyHomePageState(locale);
