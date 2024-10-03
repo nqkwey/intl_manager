@@ -50,11 +50,11 @@ class IntlBuilder {
         String? languageCode;
         String? countryCode;
         if (matched != null && matched.groupCount > 0) {
-          languageCode = matched.group(1)!;
-          languageCode = languageCode.replaceAll('-', '');
+          languageCode = matched.group(1);
+          languageCode = languageCode?.replaceAll('-', '');
           if (matched.groupCount > 1) {
-            countryCode = matched.group(2)!;
-            countryCode = countryCode.replaceAll('-', '');
+            countryCode = matched.group(2);
+            countryCode = countryCode?.replaceAll('-', '');
           }
         }
         if (languageCode != null) {
